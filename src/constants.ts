@@ -1,4 +1,6 @@
 import { CardData, District } from './types';
+// 画像のimport（実際の画像ファイルがある場合）
+// import cardToImage from './assets/images/karuta/card-to.jpg';
 
 export const HACHIJO_DISTRICTS: District[] = [
   District.MITSUNE,
@@ -11,7 +13,7 @@ export const HACHIJO_DISTRICTS: District[] = [
 // Data extracted from the provided Karuta images for card 'と'
 export const cardTo: CardData = {
   id: 'to',
-  image: '/images/karuta/card-to.jpg', // ローカル画像パス（public フォルダ基準）
+  image: '/images/karuta/card-to.jpg', // 実際の画像ファイルがある場合は import した変数を使用
   standardJapanese: ['朝早く起きて', '畑に', '行ったんだけど…'],
   dialectPhrases: [
     {
