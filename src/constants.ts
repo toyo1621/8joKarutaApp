@@ -11,7 +11,7 @@ export const HACHIJO_DISTRICTS: District[] = [
 // Data extracted from the provided Karuta images for card 'と'
 export const cardTo: CardData = {
   id: 'to',
-  image: 'https://i.imgur.com/bXeYdrV.jpeg', // The actual Karuta card image.
+  image: '/images/karuta/card-to.jpg', // ローカル画像パス（public フォルダ基準）
   standardJapanese: ['朝早く起きて', '畑に', '行ったんだけど…'],
   dialectPhrases: [
     {
